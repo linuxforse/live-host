@@ -31,4 +31,4 @@ else
 notify-send -i $HOME/*/live-host/img/no-internet-pc.png "Вероятно отсутствует подключение" "К Иинтеренету"
 fi
 
-exit 0
+exit $?
